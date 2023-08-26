@@ -1,0 +1,31 @@
+{
+  "name": "@vixatica-icons/solid",
+  "version": "1.0.0",
+  "description": "Vixatica Icons for Solid",
+  "author": "njirolu/vixatica-icons",
+  "license": "MIT",
+  "type": "module",
+  "module": "./dist/vixatica-icons-solid.es.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "solid": "./dist/source/index.js",
+      "import": "./dist/vixatica-icons-solid.es.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njirolu/vixatica-icons.git",
+    "directory": "packages/solid"
+  },
+  "bugs": "https://github.com/njirolu/vixatica-icons/issues"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@vixatica-icons/svelte",
+  "version": "1.0.0",
+  "description": "Vixatica Icons for Svelte",
+  "author": "Anggi Alberto",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "svelte": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "peerDependencies": {
+    "svelte": ">=3.0.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "svelte-kit sync && svelte-package --input src --output dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njirolu/vixatica-icons.git",
+    "directory": "packages/svelte"
+  },
+  "bugs": "https://github.com/njirolu/vixatica-icons/issues"
+}

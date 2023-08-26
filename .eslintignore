@@ -1,0 +1,5 @@
+node_modules
+scripts
+packages
+mitosis.config.js
+.eslintrc.js

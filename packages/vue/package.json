@@ -1,0 +1,32 @@
+{
+  "name": "@vixatica-icons/vue",
+  "version": "1.0.0",
+  "description": "Vixatica Icons for Vue 3",
+  "author": "Anggi Alberto",
+  "license": "MIT",
+  "type": "module",
+  "module": "./dist/vixatica-icons-vue.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/vixatica-icons-vue.es.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "typings": "vue-tsc --declaration --emitDeclarationOnly --project . --outFile ./dist/index.d.ts && replace 'index' '@vixatica-icons/vue' ./dist/index.d.ts --silent"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njirolu/vixatica-icons.git",
+    "directory": "packages/vue"
+  },
+  "bugs": "https://github.com/njirolu/vixatica-icons/issues"
+}

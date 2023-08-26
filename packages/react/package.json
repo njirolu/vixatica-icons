@@ -1,0 +1,35 @@
+{
+  "name": "@vixatica-icons/react",
+  "version": "1.0.0",
+  "description": "Vixatica Icons for React",
+  "author": "njirolu/vixatica-icons",
+  "license": "MIT",
+  "type": "module",
+  "module": "./dist/vixatica-icons-react.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vixatica-icons-react.es.js"
+    }
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "typings": "tsc --declaration --emitDeclarationOnly --project tsconfig.json --outFile ./dist/index.d.ts && replace \"index\" \"@vixatica-icons/react\" ./dist/index.d.ts --silent"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njirolu/vixatica-icons.git",
+    "directory": "packages/react"
+  },
+  "bugs": "https://github.com/njirolu/vixatica-icons/issues"
+}

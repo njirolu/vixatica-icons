@@ -9,7 +9,7 @@
 <p>
 
 <p align="center">
-  <a href="#"><strong>Browse at Vixatica Icons &rarr;</strong></a>
+  <a href="https://vixaticaicons.vercel.app/"><strong>Browse at Vixatica Icons &rarr;</strong></a>
 </p>
 
 

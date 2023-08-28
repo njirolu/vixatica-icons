@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#" target="_blank">
+  <a href="https://vixaticaicons.vercel.app/" target="_blank">
     <img src="https://raw.githubusercontent.com/njirolu/vixatica-icons/main/static/img/logo.svg" alt="Vixaticaicons" width="300">
   </a>
 </p>
@@ -9,7 +9,7 @@
 <p>
 
 <p align="center">
-  <a href="#"><strong>Browse at Vixatica Icons &rarr;</strong></a>
+  <a href="https://vixaticaicons.vercel.app/"><strong>Browse at Vixatica Icons &rarr;</strong></a>
 </p>
 
 ## Vue
